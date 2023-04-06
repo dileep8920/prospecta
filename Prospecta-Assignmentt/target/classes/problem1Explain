@@ -1,0 +1,10 @@
+ Question: what are the key things you would consider when creating/consuming an API to ensure that it is secure and reliable?
+
+Ans: 1. I will use the Spring Security for Security purpose to know the customer is valid or not
+		
+	 2 I will handle all the exceptions to know the error where i am getting.
+	 
+	 3. I will use the validation to know if the input is valid or not.
+	 
+
+

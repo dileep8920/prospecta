@@ -1,0 +1,18 @@
+1. How will you tackle the challenge above?
+
+Ans To takle this challenge we can write a program that can reads the csv file using the bufferdReader class and then we can split into 
+    into seperate line using splt method and then evaluate the cell contents as either a value or a formula. If the cell contains a value then
+    we ruturn as it is. If it contains a formula then we evaluate the formula and then returns the value 
+    
+2. What type of errors you would you check for?
+
+  1. Division by zero
+  2. Number format
+  3. Incorrect formula
+  4. Incorrect input file
+  
+3. How might a user break your code?
+
+  1. providing a formula that is incorrect 
+  2. providing a cell reference that doesn't exist
+  3. providing an incorrect input file path
